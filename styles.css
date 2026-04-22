@@ -329,6 +329,7 @@ nav.scrolled {
 .hero-wordmark {
     font-family: montserrat;
     font-size: clamp(7rem, 14vw, 20rem);
+    font-weight: 900;
     line-height: 0.82;
     letter-spacing: -0.03em;
     color: #fffef8;
