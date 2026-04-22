@@ -179,7 +179,7 @@ nav.scrolled {
 
 /* HERO */
 .hero {
-  height: 100vh;
+  height: 70vh;
   min-height: 640px;
   position: relative;
   overflow: hidden;
@@ -327,17 +327,17 @@ nav.scrolled {
 }
 
 .hero-wordmark {
-  font-family: var(--font-display);
-  font-size: clamp(7rem, 20vw, 20rem);
-  line-height: 0.82;
-  letter-spacing: 0.03em;
-  color: transparent;
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.18);
-  white-space: nowrap;
-  display: block;
-  opacity: 0;
-  animation: fadeUp 1.2s var(--ease) 1.3s forwards;
-  will-change: transform;
+    font-family: montserrat;
+    font-size: clamp(7rem, 14vw, 20rem);
+    line-height: 0.82;
+    letter-spacing: -0.03em;
+    color: #fffef8;
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.18);
+    white-space: nowrap;
+    display: block;
+    opacity: 0;
+    animation: fadeUp 1.2s var(--ease) 1.3s forwards;
+    will-change: transform;
 }
 
 .hero-wordmark .wm-line2 {
